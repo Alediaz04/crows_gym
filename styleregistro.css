@@ -1,0 +1,126 @@
+@font-face {
+    font-family: gym ;
+    src: url(fuente/Gumela.ttf);
+}
+body{
+    font-family: gym;
+}
+
+header{
+    background-color: #000;
+    height: 120px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    display: flex;
+   margin-left: 180px;
+ 
+}
+.nav a{
+    padding-right: 70px;
+    padding-left: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav a:hover{
+    color: red;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+}
+div button{
+    margin-right: 20px;
+    height: 60px;
+    width: 180px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 600;
+    font-size: 18px;
+    border-radius: 5%;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: red;
+}
+div button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* Fin Del Header */
+/* Comienzo MAIN */
+main{
+    background-image: url(img/fondoregistro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #e9e6e6;
+    
+
+}
+.titulo{
+    width: 400px;
+    height: 150px;
+    padding-top: 10px;
+
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.formulario h1{
+    position: absolute;
+    left: 605px;
+    top:280px;
+    color: #fff;
+    font-size: 35px;
+}
+.formulario p{
+    position: absolute;
+    left: 658px;
+    top: 325px;
+    font-size: 20px;
+    color: #fff;
+}
+.center{
+    display: flex;
+    justify-content: center;
+     position: absolute;
+    top:400px;
+    
+}
+label{
+    font-size: 18px;
+    color: #fff;
+}
+input{
+    border: none;
+    border-bottom: #303030 solid 3px;
+    width: 550px;
+    background-color: transparent;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+}
+form button{
+   position: absolute;
+   left: 370px;
+}
