@@ -1,0 +1,304 @@
+@font-face {
+    font-family: gym ;
+    src: url(fuente/Gumela.ttf);
+    /* Fuente para flecha */
+    font-family: arrow;
+    src: url(fuente/arrow_7.ttf);
+}
+body{
+    font-family: gym;
+}
+
+/* icono whatsapp */
+.wspa{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 1000;
+      
+      
+}
+.tamaño:hover{
+   font-size: 60px;
+}
+.tamaño{
+    font-size: 50px;
+    color: green;
+    transition: 0.3s;
+}
+/* fin icono whatsapp */
+header{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    display: flex;
+   margin-left: 180px;
+ 
+}
+.nav a{
+    padding-right: 70px;
+    padding-left: 0px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav a:hover{
+    color: red;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+div button{
+    margin-right: 20px;
+    height: 60px;
+    width: 180px;
+    
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5%;
+    transition: 0.3s ease;
+
+}
+button:hover{
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+div button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* Fin Del Header */
+
+
+/* Comienzo Intro */
+main{
+    padding-top: 10px;
+}
+.vid{
+    width: 100%;
+    height: 910px;
+}
+video{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    background: #1c1c1d;
+    opacity: 0.5;} 
+.tittle{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    top: 300px;
+    left: 36.5%;
+}
+div .arrow{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    padding-left: 46%;
+    color: #780206;  /* fallback for old browsers */
+
+    font-family: arrow;
+    font-size: 150px;
+    animation: arrow1 1s ease infinite; /*Indica nombre animacion, duracion y veces que se repite */
+    animation-direction: alternate-reverse; /*Indica hacia donde se movera*/
+    
+}
+@keyframes arrow1{
+    0% {
+        padding-top: 270px;
+    }
+    100% { 
+        padding-top: 300px;
+    }
+}
+/* Terminado Intro */
+/* Comienzo Inicio */
+.cambio{
+    width: 100%;
+    height: 320px;
+    background-color: #1c1c1d;
+}
+.pad{
+    padding-top: 20px;
+}
+.cambio h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+}
+.crowcolor{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: red;
+    padding-bottom: 20px;
+
+}
+
+
+/* Inicio Tienda */
+.shop{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cuadro{
+    height: 600px;
+    width: 302px;
+    display: flex;
+    border: solid red 2px;
+    border-radius: 1%;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.cuadro:hover{
+    height: 750px;
+    width: 400px;
+}
+
+.ancho{
+    width: 100%;
+    height: 500px;
+    transition: 0.3s ease;
+    
+}
+.bprincipal{
+        
+        height: 60px;
+        width: 200px;  
+        background-color: red;
+        color: #fff;
+        font-size: 600;
+        font-size: 18px;
+        border-radius: 5%;
+        margin-top: 15px;
+        transition: 0.3s;
+    
+    
+   
+  
+}
+.bprincipal:hover{
+    background-color: blueviolet;
+}
+.bprincipal a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+} 
+
+/* Comienzo Contactanos  */
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 100px;
+    background-color: hsl(240, 2%, 11%);
+    width: 100%;
+    height: 800px;
+}
+.contac{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 5%;
+    width: 600px;
+    height: 650px;
+}
+.contac h1{
+    color: orangered;
+}
+.contac input{
+    background-color: transparent;
+    border: none;
+    border-bottom: #000 solid 3px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.contac label{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.msj{
+    height: 100px;
+}
+.btn{
+    margin-right: 20px;
+    height: 60px;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 230px;
+    color: #fff;
+    font-size: 600;
+    font-size: 18px;
+    border-radius: 5%;
+    transition: 0.3s ease;
+    border: none;
+}
+.btn:hover{
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.redes i{
+    color: #000;
+    font-size: 100px;
+}
+.redes .ig{
+    color: rgb(255, 102, 0);
+}
+.redes .ytb{
+    color: rgb(255, 0, 0);
+}
