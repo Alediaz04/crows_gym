@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-
+    color: #fff;
     
 }
 
@@ -26,14 +26,14 @@ main{
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    width: 800px;
-    height: 800px;
+     opacity: 0.;
+    width: 700px;
+    height: 750px;
     border-radius: 15%;
 }
 div input{
     border: none;
-    border-bottom: 3px solid  #000000;
+    border-bottom: #9c9797 solid 3px;
     background-color:  transparent;
     width: 300px;
     height: 25px;
@@ -44,24 +44,22 @@ div label{
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    left: 790px;
-    
+    left: 700px;  
     padding-top: 10px;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 24px;
 }
 .contra{
     position: absolute;
     color: rgb(255, 248, 248);
-    
-    top: 600px;
-    left: 910px;
+    top: 580px;
+    left: 830px;
 }
 .contra:hover{
     font-weight: 600;
 }
 div p{
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 18px;
 }
 div p a{
@@ -80,7 +78,7 @@ button{
     background-color: rgb(22, 0, 43);
     width: 300px;
     height: 80px;
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 4%;
     border: none;
     
