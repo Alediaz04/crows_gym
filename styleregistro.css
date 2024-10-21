@@ -6,43 +6,6 @@ body{
     font-family: gym;
 }
 
-/* header{
-    background-color: #000;
-    height: 100px;
-    width: 100%;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.nav{
-    display: flex;
-   margin-left: 180px;
- 
-}
-.nav a{
-    padding-right: 70px;
-    padding-left: 0px;
-    margin-top: 50px;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s;
-}
-.nav a:hover{
-    color: red;
-}
-
-.logo{
-    width: 120px;
-    height: 100px;
-} */
-
-
-/* Fin Del Header */
-/* Comienzo MAIN */
 main{
     background-image: url(img/fondoregistro.jpg);
     background-repeat: no-repeat;
