@@ -109,7 +109,7 @@
 @media screen and (max-width:600px) {
     main{
         width: 350px;
-        height: 350px;
+        height: 400px;
     }
     body main section div img{
         width: 150px;
@@ -181,7 +181,7 @@
     /* Terminado */
     main{
         width: 260px;
-        height: 270px;
+        height: 320px;
     }
     
     body main div label{
@@ -224,14 +224,14 @@
     .contra{
         position: absolute;
         left: 230px;
-        top: 200px;
+        top: 210px;
         font-size: 8px;
      }
     button{
         width: 150px;
         height: 30px;
         position: absolute;
-        top: 170px;
+        top: 180px;
         left: 168px;
     }
     button a{
@@ -239,7 +239,7 @@
     }
     div p{
         position: absolute;
-        top: 240px;
+        top: 260px;
         left: 170px;
         font-size: 9px;
     }
