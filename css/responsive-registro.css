@@ -21,17 +21,17 @@
 }
 
 @media  screen and (max-width:1280px){
+    /* Terminado */
     .formulario h1{
         left: 360px;
     }
     .formulario p{
         left: 440px;
     }
-
-
 }
 
 @media screen and (max-width:1024px) {
+    /* Terminado */
     .formulario h1{
         left: 240px;
     }
@@ -42,6 +42,7 @@
 }
 
 @media screen and (max-width:600px) {
+    /* Terminado */
     .formulario h1{
         left: 170px;
     }
@@ -66,5 +67,29 @@
 }
 
 @media screen and (max-width:480px) {
+    .formulario h1{
+        left: 120px; 
+        top: 150px;
+        font-weight: 800;
+    }
+    .formulario p{
+        left: 150px;
+        top: 200px;
+        font-weight: 600;
+    }
+    .center label{
+        color: black;
+        font-weight: 600;
+    }
+    .center input{
+        width: 350px;
+        
+    }
+    form button{
+        margin-top: 40px;
+        left: 90px;
+    }
+    
+
 
 }
