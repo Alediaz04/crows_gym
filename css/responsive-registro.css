@@ -1,0 +1,70 @@
+@media screen and (max-width:1920px){
+/* Terminado */
+    .formulario h1{
+        left: 680px;
+    }
+    .formulario p{
+        left: 760px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    /* Terminado */
+    .formulario h1{
+        left: 440px;
+    }
+    .formulario p{
+        left: 520px;
+    }
+
+
+}
+
+@media  screen and (max-width:1280px){
+    .formulario h1{
+        left: 360px;
+    }
+    .formulario p{
+        left: 440px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .formulario h1{
+        left: 240px;
+    }
+    .formulario p{
+        left: 320px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .formulario h1{
+        left: 170px;
+    }
+    .formulario p{
+        left: 230px;
+    }
+    .formulario{
+        width: 300px;
+    }
+
+    .center input{
+        width: 450px;
+        
+    }
+    form button{
+        margin-top: 40px;
+        left: 150px;
+    }
+    
+
+
+}
+
+@media screen and (max-width:480px) {
+
+}
