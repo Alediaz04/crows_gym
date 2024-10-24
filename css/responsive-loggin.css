@@ -1,0 +1,251 @@
+@media screen and (max-width:1920px){
+    body main div label{
+        display: flex;
+        position: absolute;
+        left: 810px;
+    }
+    .contra{
+        position: absolute;
+        left: 940px;
+        top: 580px;
+     }
+
+}
+@media screen and (max-width:1440px){
+    /* Terminado */
+    main{
+        height: 700px;
+        width: 650px;
+    }
+  
+    body main div label{
+        display: flex;
+       
+        position: absolute;
+        left: 560px ;
+        font-size: 28px;
+        
+    }
+    .contra{
+       position: absolute;
+       left: 700px;
+       top: 560px;
+    }
+    button{
+        margin-top: 50px;
+    }
+    div p{
+        position: absolute;
+        bottom: 170px;
+        left: 580px;
+    }
+    
+
+    
+}
+
+@media  screen and (max-width:1280px){
+    /* Terminado */
+    main{
+        width: 550px;
+        height: 600px;
+    }
+    
+    body main section div img{
+        width: 300px;
+    }
+    body main div label{
+        display: flex;
+       
+        position: absolute;
+        left: 490px ;
+        font-size: 28px;
+        
+    }
+    .contra{
+        position: absolute;
+        left: 620px;
+        top: 450px;
+     }
+     div p{
+        position: absolute;
+        bottom: 100px;
+        left: 505px;
+    }
+    button{
+        width: 320px;
+    }
+    
+    
+}
+@media screen and (max-width:1024px) {
+    /* Terminado */
+    body main div label{
+        display: flex;
+       
+        position: absolute;
+        left: 370px ;
+        font-size: 28px;
+        
+    }
+    .contra{
+        position: absolute;
+        left: 480px;
+        top: 430px;
+     }
+     div p{
+        position: absolute;
+        bottom: 150px;
+        left: 370px;
+    }
+    button{
+        width: 320px;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    main{
+        width: 350px;
+        height: 350px;
+    }
+    body main section div img{
+        width: 150px;
+    }
+    body main div label{
+        display: flex;
+       
+        position: absolute;
+        left: 215px ;
+        font-size: 16px;
+        
+    }
+    .lab1{
+        display: flex;
+        position: absolute;
+        top: 153px;
+        
+    }
+    .lab2{
+        display: flex;
+        position: absolute;
+        top: 210px;
+        
+
+    }
+    body main div input{
+        width: 180px;
+        height: 10px;
+        display: flex;
+        position: absolute;
+        left: 215px;
+        top: 220px;      
+    }
+    .inp1 {
+        position: absolute;
+        top: 165px;
+    }
+    .contra{
+        position: absolute;
+        left: 310px;
+        top: 275px;
+        font-size: 8px;
+    }
+    button{
+        width: 180px;
+        height: 40px;
+        position: absolute;
+        top: 250px;
+        left: 215px;
+    }
+    button a{
+        font-size: 13px;
+    }
+    div p{
+        position: absolute;
+        top: 335px;
+        left: 225px;
+        font-size: 10px;
+    }
+    .register {
+        font-size: 12px;
+    }
+    
+    
+  
+    
+}
+@media screen and (max-width:480px) {
+    /* Terminado */
+    main{
+        width: 260px;
+        height: 270px;
+    }
+    
+    body main div label{
+        display: flex;
+       
+        position: absolute;
+        left: 170px ;
+        font-size: 14px;
+        
+    }
+    .lab1{
+        display: flex;
+        position: absolute;
+        top: 100px;
+        
+    }
+    .lab2{
+        display: flex;
+        position: absolute;
+        top: 145px;
+        
+
+    }
+    body main div input{
+        width: 140px;
+        height: 10px;
+        display: flex;
+        position: absolute;
+        left: 170px;
+        top: 150px;      
+    }
+    .inp1 {
+        position: absolute;
+        top: 104px;
+    }
+    body main section div img{
+        width: 110px;
+
+    }
+    .contra{
+        position: absolute;
+        left: 230px;
+        top: 200px;
+        font-size: 8px;
+     }
+    button{
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        top: 170px;
+        left: 168px;
+    }
+    button a{
+        font-size: 13px;
+    }
+    div p{
+        position: absolute;
+        top: 240px;
+        left: 170px;
+        font-size: 9px;
+    }
+    .register {
+        font-size: 11px;
+    }
+
+
+    
+}
