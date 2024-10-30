@@ -20,24 +20,19 @@ body{
     width: 50px;
     height: auto;
     border-radius: 50%;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
 }
 
 .tamaño{
     font-size: 30px;
     margin: auto;
     color: #fff;
-    transition: 0.3s ease;
    
 }
 .wspa:hover{
-    font-size: 40px;
-    width: 70px;
-    height: 70px;
+    scale: 1.4;
  }
- .tamaño:hover{
-    font-size: 40px;
- }
+
 /* fin icono whatsapp */
 
 header{
@@ -64,10 +59,11 @@ header{
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s ease;
 }
 .nav a:hover{
     color: red;
+    filter: drop-shadow(10px 10px 20px red);
 }
 
 .logo{
@@ -195,7 +191,7 @@ div .arrow{
     height: 1000px;
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 180px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -211,8 +207,10 @@ div .arrow{
     transition: 0.3s ease;
 }
 .cuadro:hover{
-    height: 750px;
-    width: 400px;
+    scale: 1.2;
+    cursor: pointer;
+    height:700px;
+    
 }
 
 .ancho{
