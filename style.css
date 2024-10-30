@@ -6,10 +6,12 @@ body{
     font-family: gym;
     background-image: url(img/fondo\ inicisesion.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100vh;
     margin-top: 5%;
     color: #fff;
     

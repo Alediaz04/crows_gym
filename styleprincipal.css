@@ -1,12 +1,12 @@
 @font-face {
-    font-family: gym ;
+    font-family: 'gym' ;
     src: url(fuente/Gumela.ttf);
     /* Fuente para flecha */
     font-family: arrow;
     src: url(fuente/arrow_7.ttf);
 }
 body{
-    font-family: gym;
+    font-family: 'gym';
 }
 
 /* icono whatsapp */
@@ -228,6 +228,7 @@ div .arrow{
     text-align: left;
 
 }
+
 .bprincipal{
     height: 60px;
     width: 200px;  
