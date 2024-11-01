@@ -5,6 +5,7 @@ function quiz1( opc, btn){
     
     if( opc===2){
        btn.setAttribute("class", "correcto");
+       
         
 
     }else{
@@ -60,4 +61,19 @@ function quiz4(opc, btn){
       
     }
 }
+
 // pregunta 5
+function quiz5(opc, btn){
+    const buttons = document.querySelectorAll('.btn5');
+    buttons.forEach(button => button.disabled = true);
+
+    if( opc===4){
+       btn.setAttribute("class", "correcto");
+        
+
+    }else{
+       
+        btn.setAttribute("class", "incorrecto");
+      
+    }
+}
