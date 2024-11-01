@@ -77,3 +77,8 @@ function quiz5(opc, btn){
       
     }
 }
+
+// reiniciar contenido
+function restartContent(){
+    location.reload();
+}

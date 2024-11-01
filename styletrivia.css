@@ -81,6 +81,7 @@ header{
     padding-top: 20px;
     width: 100%;
     height: auto;
+    margin-bottom: 100px;
     
     
 }
@@ -96,30 +97,76 @@ header{
 .trione{
     width: 600px;
     margin-top: 30px;
-    background-color: gray;
-    border: #fff solid 2px;
+    border: 1px solid black;
+    filter: drop-shadow(2px 2px 20px #000);
+    background: #434343;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10% 15% ;
     color: #fff;
-    height: auto;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.trione h3{
+    font-size: 30px;
+    border-bottom: 2px solid rgb(143, 143, 143) ;
+    padding-bottom: 20px;
+    width: 100%;
+}
 .trione button{
     width: 400px;
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 40px;
+    margin: 10px 0px;
     border: none;
     color: #fff;
     background-color: #240b36;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .trione .correcto{
-    background-color: greenyellow;
+    background-color: rgb(10, 155, 10);
+    scale: 1.2;
 }
 .trione .incorrecto{
-    background-color: red;
+    background-color: rgb(255, 3, 3);
+    scale: 1.2;
 }
 
+
+
+/* Botones*/
+.botones{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.btn-restart{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+}
+.btn-result{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+}
