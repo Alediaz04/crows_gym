@@ -1,8 +1,9 @@
-function quiz1(ques, opc, btn){
+// pregunta 1 
+function quiz1( opc, btn){
     const buttons = document.querySelectorAll('.btn1');
     buttons.forEach(button => button.disabled = true);
     
-    if(ques===1 && opc===2){
+    if( opc===2){
        btn.setAttribute("class", "correcto");
         
 
@@ -12,11 +13,14 @@ function quiz1(ques, opc, btn){
       
     }
 }
-function quiz2(ques, opc, btn){
+
+// pregunta 2
+
+function quiz2(opc, btn){
     const buttons = document.querySelectorAll('.btn2');
     buttons.forEach(button => button.disabled = true);
 
-    if(ques===1 && opc===3){
+    if(opc===3){
        btn.setAttribute("class", "correcto");
         
 
@@ -26,11 +30,12 @@ function quiz2(ques, opc, btn){
       
     }
 }
-function quiz3(ques, opc, btn){
+// pregunta 3
+function quiz3(opc, btn){
     const buttons = document.querySelectorAll('.btn3');
     buttons.forEach(button => button.disabled = true);
 
-    if(ques===1 && opc===1){
+    if( opc===1){
        btn.setAttribute("class", "correcto");
         
 
@@ -40,4 +45,19 @@ function quiz3(ques, opc, btn){
       
     }
 }
+// Pregunta 4
+function quiz4(opc, btn){
+    const buttons = document.querySelectorAll('.btn4');
+    buttons.forEach(button => button.disabled = true);
 
+    if( opc===2){
+       btn.setAttribute("class", "correcto");
+        
+
+    }else{
+       
+        btn.setAttribute("class", "incorrecto");
+      
+    }
+}
+// pregunta 5
