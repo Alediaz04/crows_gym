@@ -26,3 +26,18 @@ function quiz2(ques, opc, btn){
       
     }
 }
+function quiz3(ques, opc, btn){
+    const buttons = document.querySelectorAll('.btn3');
+    buttons.forEach(button => button.disabled = true);
+
+    if(ques===1 && opc===1){
+       btn.setAttribute("class", "correcto");
+        
+
+    }else{
+       
+        btn.setAttribute("class", "incorrecto");
+      
+    }
+}
+
