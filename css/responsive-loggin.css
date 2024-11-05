@@ -106,66 +106,70 @@
     
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (max-height:1000px) {
+    body{
+        height: 100vh;
+    }
     main{
-        width: 350px;
-        height: 400px;
+        margin-top: 5%;
+        width: 400px;
+        height: 500px;
     }
     body main section div img{
-        width: 150px;
+        width: 250px;
     }
     body main div label{
         display: flex;
        
         position: absolute;
-        left: 215px ;
+        left: 200px ;
         font-size: 16px;
         
     }
     .lab1{
         display: flex;
         position: absolute;
-        top: 153px;
+        top: 25%;
         
     }
     .lab2{
         display: flex;
         position: absolute;
-        top: 210px;
+        top: 32%;
         
 
     }
     body main div input{
-        width: 180px;
+        width: 200px;
         height: 10px;
         display: flex;
         position: absolute;
-        left: 215px;
-        top: 220px;      
+        left: 200px;
+        top: 33%;      
     }
     .inp1 {
         position: absolute;
-        top: 165px;
+        top: 26%;
     }
     .contra{
         position: absolute;
         left: 310px;
-        top: 275px;
+        top: 39%;
         font-size: 8px;
     }
     button{
         width: 180px;
         height: 40px;
         position: absolute;
-        top: 250px;
-        left: 215px;
+        top: 37%;
+        left: 210px;
     }
     button a{
         font-size: 13px;
     }
     div p{
         position: absolute;
-        top: 335px;
+        top: 46%;
         left: 225px;
         font-size: 10px;
     }
