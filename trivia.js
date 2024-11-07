@@ -1,3 +1,6 @@
+// Variable score 
+let correctas= 0;           
+
 // pregunta 1 
 function quiz1( opc, btn){
     const buttons = document.querySelectorAll('.btn1');
@@ -5,6 +8,7 @@ function quiz1( opc, btn){
     
     if( opc===2){
        btn.setAttribute("class", "correcto");
+       correctas = correctas+1;
        
         
 
@@ -23,7 +27,7 @@ function quiz2(opc, btn){
 
     if(opc===3){
        btn.setAttribute("class", "correcto");
-        
+       correctas= correctas +1;
 
     }else{
        
@@ -38,7 +42,7 @@ function quiz3(opc, btn){
 
     if( opc===1){
        btn.setAttribute("class", "correcto");
-        
+       correctas= correctas +1; 
 
     }else{
        
@@ -53,7 +57,7 @@ function quiz4(opc, btn){
 
     if( opc===2){
        btn.setAttribute("class", "correcto");
-        
+       correctas= correctas +1; 
 
     }else{
        
@@ -69,7 +73,7 @@ function quiz5(opc, btn){
 
     if( opc===4){
        btn.setAttribute("class", "correcto");
-        
+       correctas= correctas +1; 
 
     }else{
        
@@ -81,4 +85,9 @@ function quiz5(opc, btn){
 // reiniciar contenido
 function restartContent(){
     location.reload();
+}
+
+function scoreFinal(){
+    result = correctas;
+    alert("Felicidades \nRespondiste: "+result+"/5 correctamente");
 }
