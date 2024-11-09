@@ -158,6 +158,11 @@ header{
     background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     cursor: pointer;
+    transition: 0.3 ease;
+}
+.btn-restart:hover{
+    background: rgb(54, 0, 54);  /* fallback for old browsers */
+   
 }
 .btn-result{
     color: #fff;
@@ -170,4 +175,30 @@ header{
     background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     cursor: pointer;
+}
+.btn-result:hover{
+    background: rgb(54, 0, 54);  /* fallback for old browsers */
+   
+}
+
+.btn-volver{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+
+}
+.btn-volver a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-volver:hover{
+    background: rgb(54, 0, 54);  /* fallback for old browsers */
+   
 }
