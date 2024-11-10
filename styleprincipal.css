@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'gym' ;
-    src: url(fuente/Gumela.ttf);
     /* Fuente para flecha */
     font-family: arrow;
     src: url(fuente/arrow_7.ttf);
 }
 body{
-    font-family: 'gym';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* icono whatsapp */
