@@ -37,6 +37,7 @@ div input{
     width: 300px;
     height: 25px;
     margin-top: 30px;
+    color: #fff;
     
 }
 div label{
@@ -73,23 +74,21 @@ div p a:hover{
     color: red;
     
 }
-button{
+.btn{
     background-color: rgb(22, 0, 43);
     width: 300px;
     height: 80px;
     margin-top: 60px;
     border-radius: 4%;
     border: none;
-    
-    transition: 0.3s;
+    color: #fff;
+    cursor: progress;
+
+    transition: 0.3s ease;
 }
-button a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
-    font-size: 20px;
-}
+
 button:hover{
     background-color: rgb(255, 7, 7);
+    cursor: pointer;
 }
 

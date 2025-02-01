@@ -19,15 +19,15 @@
 
             </div>
             <div>
-                <form action="">
+                <form action="login.php" method="post">
                 <label class="lab1">Email:</label><br>
-                <input type="email" class="inp1" required><br>
+                <input type="email" class="inp1" name="email" required ><br>
                 <label class="lab2">Contraseña:</label><br>
-                <input type="password" class="inp2" required><br>
+                <input type="password" class="inp2" name="contraseña" required><br>
                 <a href="https://th.bing.com/th/id/OIP.E5HzHoT3xEko6US-5xyOJAAAAA?rs=1&pid=ImgDetMain" class="contra" target="_blank">¿Olvidaste tu contraseña?</a>
-                <button><a href="indexprincipal.html">INICIAR SESIÓN</a></button>
+                <button type="submit" class="btn">INICIAR SESIÓN</button>
                 </form>
-                <p>No estas registrado? <a href="indexregistro.html" class="register">REGISTRATE</a></p>
+                <p>No estas registrado? <a href="registro.php" class="register">REGISTRATE</a></p>
 
 
             </div>
