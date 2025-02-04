@@ -1,0 +1,65 @@
+[33m5ef6465[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Base de datos simple funcional, con cambio de nombre en archivos y archivo de conxeion y validacion en la base de datos realizados
+[33m4e59ffa[m Cambio de Formato de archivo a PHP para Creación de Base De Datos
+[33mcced78a[m[33m ([m[1;31morigin/main[m[33m)[m guardado
+[33m60c3879[m Cambio de fuente
+[33mabcf623[m Responsive de trivia realizado
+[33ma717186[m Agregado de boton volver
+[33m28966c9[m Agregado de boton volver
+[33me2d482f[m Logica de Resultado aplicada
+[33maa5e7ad[m Guardado de codigo en general
+[33mf700d25[m Responsive 600px REALIZADO
+[33md5d9979[m Responsive contacto realizado
+[33mdece445[m Responsive icono wsp realizado
+[33m516ff06[m Header terminado
+[33m428898e[m Correccion de boostrap y agregado de menu hamburguesa
+[33m7aef2a3[m Comienzo del responsive, medida de tienda solucionado
+[33m6fbcf2d[m Pregunta Cinco realizada con sus opciones
+[33mae5b347[m Pregunta Cuatro realizada con sus opciones
+[33mffcec8e[m Pregunta Tres realizada con sus opciones
+[33m4e91365[m Pregunta dos realizada con sus opciones
+[33m461f626[m Primera pregunta construida, prueba de funcionalidad correcta del codigo
+[33mcd22f68[m Agregado de boton Restar con su JS, agregado de boton resultados y mejora en estilos de la pagina
+[33mf0aecb6[m Pregunta 5 echo, estructura base preguntas listo, falta score y boton de reanudar
+[33m3316a5f[m estilos no funcionales quitados, y optimizado de funciones
+[33ma1266f4[m Tercera pregunta realizada
+[33mf786c2f[m estilos basicos agregados a segunda pregunta
+[33mb99990a[m Logica aplicada a segunda pregunta
+[33me488ddf[m segunda pregunta construida y aplicacion de clases y id
+[33m31e1100[m Primera pregunta de la trivia construida
+[33md57290c[m Logica de primera pregunta construida
+[33m5e74eb9[m Estructura general de css construida
+[33m6e1f837[m Estructura general de html construida
+[33mcddac05[m Header Realizado y agregado de Normalize, falta realizar JavaScript
+[33m8aa15af[m Agregado de nueva imagen para Fondo De Trivia
+[33mc343ec7[m Creacion de archivos para hacer pagina de TRIVIA
+[33m06f231e[m Cuarto boton para ir a pagina de trivia agregado
+[33mf29272a[m Modificacion en estilos, escala de cuadro en tienda, modificacion en icono de wsp y agregado de sombra a el navbar
+[33m63129b5[m guardado General
+[33m2c2a544[m Modificacion botones en seccion Tienda
+[33m8a68c84[m Corrección de errores en responsive
+[33m9942446[m Update README.md
+[33m01b0b58[m Responsive terminado
+[33mf3e182a[m Responsive realizado, falta 480px
+[33m215e82e[m Cambios en el CSS
+[33ma46adc6[m Responsive Loggin Finalizado
+[33m9e3b094[m Modificaciones Generales y retoques
+[33m147a679[m cambio de imagenes, agregado de carrousel y suma de seccion
+[33m58b6220[m Agregado y editado de imagenes
+[33m6b4273f[m Modificaciones en el codigo
+[33mee151d1[m Modificaciones en el codigo, optimización y correciones
+[33maf2d33e[m Modificaciones en el codigo y optimización
+[33m06eeefa[m Modificaciones en las hojas de estilo
+[33mc0caa4a[m Modificaciones en el codigo
+[33me82e34e[m Agregado de retoques y comienzo de html y css principal
+[33m85f421e[m Index loggin
+[33mbff42e3[m imagenes
+[33maf281cd[m style con fondo
+[33mb51dffb[m Video fondo
+[33m80fa61e[m Registro Terminado (Falta Responsive)
+[33m8a5fbd3[m Responsive Terminado
+[33m34fe8ad[m Estilo de Fuente
+[33m07593b5[m Estilos del logo
+[33mf592b6e[m INDEX LOGO TERMINADO
+[33m334e352[m Normalize
+[33mbac7394[m first commit
+[33m4c05e67[m Imagenes
