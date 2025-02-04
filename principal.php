@@ -17,12 +17,12 @@
 <body>
     <header>
         <div class="navbar">
-            <img class="logo" src="img/logo.png" alt="No Image">
+        <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
             <div class="nav">
               
                 <a href="#inicio">INICIO</a>
                 <a href="#tienda">TIENDA</a>
-                <a href="indextrivia.html">TRIVIA</a>
+                <a href="trivia.php">TRIVIA</a>
                 <a href="#contactanos">CONTÁCTANOS</a>
                 
             </div>
@@ -37,7 +37,7 @@
                 <li><a class="dropdown-item" href="#contactanos">CONTACTÁNOS</a></li>
               </ul>
             </div>
-            <button class="btn-head"><a href="index.html">INICIAR SESIÓN</a></button>
+            <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button>
         </div>
 
 
@@ -149,25 +149,30 @@
         </section>
         <!-- Fin De Tienda -->
          <!-- Comienzo Contactarse -->
+
+        <?php
+         include("conexion.php"); //Acá incluimos el archivo con la conexión
+         include("control_form.php"); //Acá inlcuimos el archivo con el control del registro
+        ?>
           <section id="contactanos" class="contacto">
             <div class="contac">
-              <form action="">
+              <form action="principal.php" method="POST">
                 <h1>CONTACTÁNOS!!!</h1>
                 <label for="">Tu Nombre</label>
                 <br>
-                <input type="text" required >
+                <input type="text" required name="nombreForm" >
                 <br>
-                <label for="">Tu Email</label>
+                <label for="" >Tu Email</label>
                 <br>
-                <input type="email" name="" id="" required>
+                <input type="email" name="emailForm" required>
                 <br>
                 <label for="">Asunto</label>
                 <br>
-                <input type="text" name="" id="" required>
+                <input type="text" name="asunto" required>
                 <br>
                 <label for="">Tu Mensaje</label>
                 <br>
-                <input class="msj" type="text" name="" id="" required>
+                <input class="msj" type="text" name="texto" required>
                 <br>
                 <button class="btn1" type="submit">Enviar</button>
               </form>

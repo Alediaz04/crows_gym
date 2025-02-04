@@ -52,12 +52,11 @@ div label{
 .contra{
     position: absolute;
     color: rgb(255, 248, 248);
+    font-size: 18px;
     top: 580px;
     left: 830px;
 }
-.contra:hover{
-    font-weight: 600;
-}
+
 div p{
     padding-top: 10px;
     font-size: 18px;

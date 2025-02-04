@@ -74,7 +74,7 @@ function quiz5(opc, btn){
     if( opc===4){
        btn.setAttribute("class", "correcto");
        correctas= correctas +1; 
-
+       
     }else{
        
         btn.setAttribute("class", "incorrecto");
@@ -91,3 +91,4 @@ function scoreFinal(){
     result = correctas;
     alert("Felicidades \nRespondiste: "+result+"/5 correctamente");
 }
+

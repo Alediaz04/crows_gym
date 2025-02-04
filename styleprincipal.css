@@ -278,12 +278,15 @@ div .arrow{
     color: orangered;
     font-weight: 800;
 }
+
 .contac input{
     background-color: transparent;
     border: none;
-    border-bottom: #000 solid 3px;
+    
+    border-bottom: #fff solid 3px;
     width: 400px;
     padding-bottom: 20px;
+    color: #fff;
 }
 .contac label{
     font-size: 18px;

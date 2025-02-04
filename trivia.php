@@ -12,16 +12,17 @@
 <body>
     <header>
         <div class="navbar">
-            <img class="logo" src="img/logo.png" alt="No Image">
+            <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
+            
             <div class="nav">
               
-                <a href="indexprincipal.html">IR A INICIO</a>
-                <a href="indextrivia.html">TRIVIA</a>
+                <a href="principal.php">IR A INICIO</a>
+                <a href="trivia.php">TRIVIA</a>
               
                 
             </div>
           
-            <button class="btn-head"><a href="index.html">INICIAR SESIÓN</a></button>
+            <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button>
         </div>
 
 
@@ -84,7 +85,7 @@
         <button class="btn-result" onclick="scoreFinal()">resultado</button>
       </div>
       <div class="volver">
-        <button class="btn-volver"><a href="indexprincipal.html">VOLVER</a></button>
+        <button class="btn-volver"><a href="principal.php">VOLVER</a></button>
       </div>
       
 
