@@ -32,8 +32,8 @@
               </a>
             
               <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="#inicio">TIENDA</a></li>
-                <li><a class="dropdown-item" href="indextrivia.html">TRIVIA</a></li>
+                <li><a class="dropdown-item" href="#tienda">TIENDA</a></li>
+                <li><a class="dropdown-item" href="indextrivia.php">TRIVIA</a></li>
                 <li><a class="dropdown-item" href="#contactanos">CONTACTÁNOS</a></li>
               </ul>
             </div>
@@ -108,40 +108,46 @@
             <img class="ancho" src="img/Principal/ActividadesLibres.jpg" alt="">
             <p class="precio">TODAS LAS ACTIVIDADES<br>
               $40.000</p>
-            <!-- <button class="bprincipal"><a href="#">COMPRAR</a></button> -->
-            <p>Compra No Disponible</p>
+            <button class="bprincipal"><a href="#">COMPRAR</a></button>
+            <!-- <p>Compra No Disponible</p> -->
+            <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
           
           </div>
+
           <div class="cuadro">
             <img class="ancho" src="img/Principal/EntrenamientoMusculacion.jpg" alt="">
             <p class="precio">GIMNASIO<br>
             $20.000</p>
-            <!-- <button class="bprincipal"><a href="#">COMPRAR</a></button> -->
-            <p>Compra No Disponible</p> 
-            
+            <button class="bprincipal"><a href="#">COMPRAR</a></button>
+            <!-- <p>Compra No Disponible</p>  -->
+            <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+ 
           </div>
+
           <div class="cuadro">
             <img class="ancho" src="img/Principal/EntrenamientoCrossfit.jpg" alt="">
             <p class="precio">CROSSFIT <br>
               $24.000</p>
-            <!-- <button class="bprincipal"><a href="#">COMPRAR</a></button> -->
-            <p>Compra No Disponible</p> 
+            <button class="bprincipal"><a href="#">COMPRAR</a></button>
+            <!-- <p>Compra No Disponible</p>  -->
+            <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
           </div>
           <div class="cuadro ase1">
             <img class="ancho" src="img/Principal/EntrenamientoFuncional.jpg" alt="">
             <p class="precio">FUNCIONAL <br>
-              $15.000</p>
-            <!-- <button class="bprincipal"><a href="#">COMPRAR</a></button> -->
-            <p>Compra No Disponible</p>
+            $15.000</p>
+            <button class="bprincipal"><a href="#">COMPRAR</a></button>
+            <!-- <p>Compra No Disponible</p>  -->
+            <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
           
           </div>
           <div class="cuadro">
             <img class="ancho" src="img/Principal/EntrenamientoBoxeo.jpg" alt="">
             <p class="precio">BOXEO <br>
-              $20.000</p>
-            <!-- <button class="bprincipal"><a href="#">COMPRAR</a></button> -->
-            <p>Compra No Disponible</p>
-          
+            $20.000</p>
+            <button class="bprincipal"><a href="#">COMPRAR</a></button>
+            <!-- <p>Compra No Disponible</p>  -->
+            <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
           </div>
           
 
@@ -185,6 +191,7 @@
           </section>
 
     </main>
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

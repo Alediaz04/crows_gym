@@ -205,16 +205,17 @@ div .arrow{
     transition: 0.3s ease;
     margin: 30px 0px;
 }
-.cuadro:hover{
-    scale: 1.2;
-    cursor: pointer;
-    
-    
+
+.texto{
+    display: none;
+    color: #fff;
+    margin: 5px 8px;
+    font-weight: 12px;
 }
 
 .ancho{
     width: 100%;
-    height: 500px;
+    height: 480px;
     transition: 0.3s ease;
     
 }
@@ -228,18 +229,22 @@ div .arrow{
 
 .bprincipal{
     height: 60px;
-    width: 200px;  
+    width: 180px;  
     background-color: red;
+    border: none;
     color: #fff;
     font-size: 600;
     font-size: 18px;
     border-radius: 5%;
     transition: 0.3s;
+    margin-bottom: 10px;
 
 }
 
 .bprincipal:hover{
     background-color: blueviolet;
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .bprincipal a{
@@ -339,8 +344,4 @@ div .ig{
 }
 .redes .ytb{
     color: rgb(255, 0, 0);
-}
-.redes i:hover{
-    font-size: 120px;
-    z-index: 1000;
 }

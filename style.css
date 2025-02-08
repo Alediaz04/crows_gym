@@ -1,6 +1,10 @@
 
+@font-face {
+    font-family: 'fontgym';
+    src: url(fuente/RobotoCondensed-Italic-VariableFont_wght.ttf) format('truetype');
+}
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'fontgym', sans-serif;
     background-image: url(img/fondo\ inicisesion.jpg);
     background-repeat: no-repeat;
     background-repeat: no-repeat;

@@ -10,7 +10,7 @@ if ($nro == 1) {
 	header('Location: principal.php');
 }
 else if($nro == 0){
-	//echo "No ingresaste locura";
+	
 	header('Location: error.php');
 }
 

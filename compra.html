@@ -12,7 +12,9 @@
     <main>
         <div class="form">
             <form action="">
-                <label for="">Nombre:</label><br>
+                <h1 class="title">REALIZA TU COMPRA!!</h1>
+                <h3>Rellena con tus datos</h3>
+                <label for="" >Nombre:</label><br>
                 <input type="text" name="nombre">
                 <br>
                 <label for="">D.N.I o CUIT:</label><br>
@@ -21,36 +23,52 @@
                 <label for="">Email:</label><br>
                 <input type="email">
                 <br>
+                <br>
 
                 <label for="">Plan:</label> <br>
 
-                <label for="">Todas Las Actividades $40.000</label>
-                <input type="checkbox" value="total">
+                <label>
+                    <input type="radio" name="actividad" value="total">
+                    Todas Las Actividades $40.000
+                </label>
                 <br>
-                <label for="">Musculación $20.000</label>
-                <input type="checkbox" value="musculacion">
+                <label>
+                    <input type="radio" name="actividad" value="musculacion">
+                    Musculación $20.000
+                </label>
                 <br>
-                <label for="">CrossFit $24.000</label>
-                <input type="checkbox" value="crossfit">
+                <label>
+                    <input type="radio" name="actividad" value="crossfit">
+                    CrossFit $24.000
+                </label>
                 <br>
-                <label for="">Funcional 15.000</label>
-                <input type="checkbox" value="funcional">
+                <label>
+                    <input type="radio" name="actividad" value="funcional">
+                    Funcional $15.000
+                </label>
                 <br>
-                <label for="">Boxeo $20.000</label>
-                <input type="checkbox" value="boxeo">
+                <label>
+                    <input type="radio" name="actividad" value="boxeo">
+                    Boxeo $20.000
+                </label>
                 <br>
-
+                <br>
                 <!-- Comienzo Tarjeta -->
-                <label for="">Su numero de tarjeta:</label><br>
-                <input type="number" name="tarjeta">
-                <br>
+                <div class="card">
+                    <h4 class="titleCard">card</h4>
+                    <img src="img/chiptar.png" alt="" class="chip">
+                    <label for=""></label><br>
+                    <input class="numeroCard" type="number" name="tarjeta">
+                    <br>
 
-                <label for="">Cvv</label>
-                <input type="number" name="number">
+                    <label for="">Cvv</label>
+                    <input class="cvv" type="text" name="number">
 
-                <label for="">F.V</label>
-                <input type="date" name="fecha">
-                <br>
+                    <label for="">Fecha Caducidad</label>
+                    <input class="fecha" type="date" name="fecha">
+                    <br>
+                </div>
+                
                 <!-- Fin inputs tarjeta -->
                 <button class="btn" type="submit" name="button">Confirmar Compra</button>
 
