@@ -7,21 +7,48 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="stylecompra.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
+    <header>
+        <div class="navbar">
+        <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
+            <div class="nav">
+              
+                <a href="principal.php">VOLVER AL INICIO</a>
+                
+                
+            </div>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle dropen" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MENÚ
+              </a>
+            
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#tienda">TIENDA</a></li>
+                <li><a class="dropdown-item" href="indextrivia.php">TRIVIA</a></li>
+                <li><a class="dropdown-item" href="#contactanos">CONTACTÁNOS</a></li>
+              </ul>
+            </div>
+            <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button>
+        </div>
+
+
+    </header>
     <main>
         <div class="form">
             <form action="">
                 <h1 class="title">REALIZA TU COMPRA!!</h1>
                 <h3>Rellena con tus datos</h3>
                 <label for="" >Nombre:</label><br>
-                <input type="text" name="nombre">
+                <input class="inp" type="text" name="nombre" placeholder="Pepe" required>
                 <br>
                 <label for="">D.N.I o CUIT:</label><br>
-                <input type="number" name="dni">
+                <input class="inp" type="number" name="dni" placeholder="00000000" required>
                 <br>
                 <label for="">Email:</label><br>
-                <input type="email">
+                <input class="inp" type="email" name="email" placeholder="pepe01@gmail.com" required>
                 <br>
                 <br>
 
@@ -57,21 +84,25 @@
                 <div class="card">
                     <h4 class="titleCard">card</h4>
                     <img src="img/chiptar.png" alt="" class="chip">
+                    <i class="bi bi-wifi wif"></i>
                     <label for=""></label><br>
-                    <input class="numeroCard" type="number" name="tarjeta">
+                    <input class="numeroCard" type="number" name="tarjeta" placeholder="1234 XXXX XXXX 4321" required>
                     <br>
 
                     <label for="">Cvv</label>
-                    <input class="cvv" type="text" name="number">
+                    <input class="cvv" type="text" name="number" placeholder="XXX" required>
 
                     <label for="">Fecha Caducidad</label>
-                    <input class="fecha" type="date" name="fecha">
+                    <input class="fecha" type="date" name="fecha" required>
                     <br>
                 </div>
                 
                 <!-- Fin inputs tarjeta -->
-                <button class="btn" type="submit" name="button">Confirmar Compra</button>
 
+                <div class="contenedor">
+                    <button class="btn" type="submit" name="button">CONFIRMAR COMPRA</button>
+                </div>
+                
             </form>
         </div>
         
