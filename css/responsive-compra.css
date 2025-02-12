@@ -1,0 +1,248 @@
+@media screen and (max-width: 1000px) {
+    header {
+        height: auto;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .nav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .btn-head {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .compra {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .suscribe {
+        font-size: 50px;
+    }
+
+    .crows {
+        font-size: 60px;
+    }
+
+    .parrafo {
+        font-size: 22px;
+    }
+
+    .fisico {
+        font-size: 26px;
+    }
+
+    .form {
+        width: 100%;
+        margin-right: 50px;
+        max-width: 700px;
+        height: auto;
+      
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inp, .numeroCard {
+        width: 100%;
+    }
+
+    .card {
+        height: auto;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titleCard {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .chip {
+        width: 55px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .wif {
+        left: 240px;
+        bottom: 90px;
+       
+        font-size: 35px;
+    }
+
+    .contenedor {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        height: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .nav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+
+    .btn-head {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .compra {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .suscribe {
+        font-size: 35px;
+    }
+
+    .crows {
+        font-size: 45px;
+    }
+
+    .parrafo {
+        font-size: 18px;
+    }
+
+    .fisico {
+        font-size: 22px;
+    }
+
+    .form {
+        margin-right: 0px;
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .inp{
+        width: 450px;
+    }
+    .numeroCard {
+        width: 98%;
+    }
+
+    .card {
+        height: auto;
+        padding: 10px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .titleCard {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .chip {
+        display: block;
+        justify-content: left;
+        width: 50px;
+    }
+
+    .wif {
+        left: auto;
+        bottom: 0;
+        font-size:40px;
+        position: relative;
+        left: 180px;
+        bottom: 70px;
+
+    }
+
+    .contenedor {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
