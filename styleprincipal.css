@@ -182,14 +182,47 @@ div .arrow{
 }
 
 
+
 /* Inicio Tienda */
+.shop-text{
+    background-color: #000;
+    width: 100%;
+    padding-top: 20px;
+}
+.shopdiv{
+    flex-direction: row;
+    height: 200px;
+    border-bottom: solid red 2px;
+    
+    
+}
+.shop-arrow{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 110px;
+
+}
+
+.h1-tienda{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+
+}
 .shop{
+    margin-top: 40px;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 1000px;
-    display: flex;
+    height: 900px;
+    display: none;
     justify-content: space-around;
-    padding-top: 180px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -203,7 +236,7 @@ div .arrow{
     flex-direction: column;
     align-items: center;
     transition: 0.3s ease;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 .texto{
@@ -235,7 +268,7 @@ div .arrow{
     color: #fff;
     font-size: 600;
     font-size: 18px;
-    border-radius: 5%;
+    border-radius: 10px;
     transition: 0.3s;
     margin-bottom: 10px;
 
@@ -300,6 +333,7 @@ div .arrow{
 
 .msj{
     height: 100px;
+    padding: 0px;
 }
 .btn1{
     margin-right: 20px;
