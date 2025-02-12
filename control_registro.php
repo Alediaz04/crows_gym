@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         $nombre = mysqli_real_escape_string($conexion, $_POST['nombre']);
         $email = mysqli_real_escape_string($conexion, $_POST['email']);
-        $pass = mysqli_real_escape_string($conexion, $_POST['contraseña']); // Sin encriptación
+        $pass = mysqli_real_escape_string($conexion, $_POST['contraseña']); 
         $telefono = !empty($_POST['telefono']) ? mysqli_real_escape_string($conexion, $_POST['telefono']) : NULL;
         $fecha = mysqli_real_escape_string($conexion, $_POST['fecha']);
 

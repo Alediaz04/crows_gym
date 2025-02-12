@@ -36,7 +36,7 @@
             <span class="fisico">¡¡¡CONSIGUE TU PRIME!!!</span> </p>
         </div>
         <div class="form">
-            <form action="">
+            <form action="control_compra.php" method="post">
                 <h1 class="title">REALIZA TU COMPRA!!</h1>
                 <h3>Rellena con tus datos</h3>
                 <label for="" >Nombre:</label><br>
@@ -53,7 +53,7 @@
                 <label for="">Plan:</label> <br>
 
                 <label>
-                    <input type="radio" name="actividad" value="total">
+                    <input type="radio" name="actividad" value="todas">
                     Todas Las Actividades $40.000
                 </label>
                 <br>
@@ -88,17 +88,17 @@
                     <br>
 
                     <label for="">Cvv</label>
-                    <input class="cvv" type="text" name="number" placeholder="XXX" required>
+                    <input class="cvv" type="text" name="cvv" placeholder="XXX" required>
 
                     <label for="">Fecha Caducidad</label>
-                    <input class="fecha" type="date" name="fecha" required>
+                    <input class="fecha" type="date" name="fechacard" required>
                     <br>
                 </div>
                 
                 <!-- Fin inputs tarjeta -->
 
                 <div class="contenedor">
-                    <button class="btn" type="submit" name="button">CONFIRMAR COMPRA</button>
+                    <button class="btn" type="submit">CONFIRMAR COMPRA</button>
                 </div>
                 
             </form>
