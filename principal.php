@@ -118,7 +118,7 @@
               $40.000</p>
               <button class="bprincipal"><a href="compra.php">COMPRAR</a></button>
              <!-- <p>Compra No Disponible</p> -->
-              <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+              <p class="texto">¡Consigue acceso total a nuestro gimnasio! 🏋️‍♂️🔥 Disfruta de todas las actividades, entrena cuando quieras y a la hora que más te convenga. ¡Inscríbete hoy y lleva tu entrenamiento al siguiente nivel! 🚀</p>
           
             </div>
 
@@ -128,7 +128,7 @@
              $20.000</p>
               <button class="bprincipal"><a href="compra.php">COMPRAR</a></button>
               <!-- <p>Compra No Disponible</p>  -->
-              <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+              <p class="texto">¡Accede libremente a nuestro gimnasio! 🏋️‍♂️🔥 Entrena con el mejor equipamiento, a la hora que prefieras y sin restricciones. ¡Inscríbete hoy y lleva tu rendimiento al siguiente nivel! 🚀</p>
  
             </div>
 
@@ -138,7 +138,7 @@
               $24.000</p>
               <button class="bprincipal"><a href="compra.php">COMPRAR</a></button>
               <!-- <p>Compra No Disponible</p>  -->
-              <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+              <p class="texto">¡Desafía tus límites con CrossFit! 💪🔥 Entrena fuerza, resistencia y velocidad con rutinas intensas. Supera cada reto, mejora tu condición y transforma tu cuerpo. ¡Inscríbete hoy y rompe tus barreras! 🚀</p>
             </div>
 
             <div class="cuadro">
@@ -147,7 +147,7 @@
               $15.000</p>
               <button class="bprincipal"><a href="compra.php">COMPRAR</a></button>
               <!-- <p>Compra No Disponible</p>  -->
-              <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+              <p class="texto">¡Entrena como nunca con Funcional! ⚡ Mejora fuerza, agilidad y resistencia con ejercicios dinámicos. Potencia tu rendimiento y alcanza tu mejor versión. ¡Únete hoy y siente el cambio en cada entrenamiento! 🚀</p>
           
             </div>
 
@@ -157,7 +157,7 @@
              $20.000</p>
               <button class="bprincipal"><a href="compra.php">COMPRAR</a></button>
               <!-- <p>Compra No Disponible</p>  -->
-              <p class="texto">Este es un texto oculto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum soluta consectetur commodi illum perspiciatis tempore porro, velit nemo!</p>
+              <p class="texto">¡Golpea fuerte y entrena con intensidad! 🥊🔥 Mejora tu velocidad, coordinación y resistencia mientras te pones en forma. Libera estrés y fortalece tu mente. ¡Inscríbete hoy y conviértete en tu mejor versión! 🚀</p>
             </div>
           
 
