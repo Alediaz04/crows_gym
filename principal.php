@@ -7,6 +7,7 @@
     <link rel="icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="styleprincipal.css">
     <link rel="stylesheet" href="css/responsive-principal.css">
@@ -43,15 +44,22 @@
             
               <ul class="dropdown-menu ">
                 <li><a class="dropdown-item" href="#tienda">TIENDA</a></li>
-                <li><a class="dropdown-item" href="indextrivia.php">TRIVIA</a></li>
+                <li><a class="dropdown-item" href="trivia.php">TRIVIA</a></li>
                 <li><a class="dropdown-item" href="#contactanos">CONTACTÁNOS</a></li>
               </ul>
             </div>
             <!-- <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button> -->
             <?php  
-              echo "<h1> Bienvenido $usuarioMostrar</h1>"; 
+              echo "<h1 class='nombre'> Bienvenido $usuarioMostrar</h1>"; 
             ?>
           </div>
+          <style>
+            .nombre{
+              color: red;
+              font-size: 35px;
+              margin-right: 20px;
+            }
+          </style>
           
 
 

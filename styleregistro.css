@@ -1,7 +1,13 @@
 
-
+@font-face {
+    font-family: 'fontgym';
+    src: url(fuente/RobotoCondensed-Italic-VariableFont_wght.ttf) format('truetype');
+}
+body{
+    font-family: 'fontgym', sans-serif;
+}
 main{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     background-image: url(img/fondoregistro.jpg);
     background-repeat: no-repeat;
     background-size: cover;

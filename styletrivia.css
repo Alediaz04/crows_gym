@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'fontgym';
+    src: url(fuente/RobotoCondensed-Italic-VariableFont_wght.ttf) format('truetype');
+}
 body{
+    font-family: 'fontgym', sans-serif;
+
     background-image: url(img/trivia/fondogimnasio\ copia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 /* Comienzo de Header */
@@ -148,6 +154,7 @@ header{
     margin-top: 50px;
 }
 .btn-restart{
+    border-radius: 15px;
     color: #fff;
     font-size: 25px;
     margin-top: 40px;
@@ -165,10 +172,12 @@ header{
    
 }
 .btn-result{
+    
     color: #fff;
     font-size: 25px;
     margin-top: 40px;
     border: none;
+    border-radius: 20px;
     width: 200px;
     height: 40px;
     background: #e52d27;  /* fallback for old browsers */
@@ -182,6 +191,7 @@ header{
 }
 
 .btn-volver{
+    border-radius: 20px;
     color: #fff;
     font-size: 25px;
     margin-top: 40px;

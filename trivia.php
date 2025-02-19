@@ -11,6 +11,16 @@
 </head>
 <body>
     <header>
+     <?php
+       session_start();
+       if(empty($_SESSION['nombre'])){
+        $usuarioMostrar="invitado";
+       }else{
+         $usuarioMostrar=$_SESSION['nombre'];
+        }
+    
+        
+      ?>
         <div class="navbar">
             <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
             
@@ -18,11 +28,21 @@
               
                 <a href="principal.php">IR A INICIO</a>
                 <a href="trivia.php">TRIVIA</a>
-              
                 
             </div>
+
+            <?php  
+              echo "<h1 class='nombre'> Bienvenido $usuarioMostrar</h1>"; 
+              ?>
+          <style>
+            .nombre{
+              color: red;
+              font-size: 35px;
+              margin-right: 20px;
+            }
+          </style>
           
-            <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button>
+            <!-- <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button> -->
         </div>
 
 
