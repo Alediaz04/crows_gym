@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("conexion.php");
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -15,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         if (mysqli_query($conexion, $sql)) {
             echo "✅ Registro exitoso.";
+            $_SESSION['nombre']=$nombre;
         } else {
             echo "❌ Error en la consulta: " . mysqli_error($conexion);
         }

@@ -15,9 +15,19 @@
 
 </head>
 <body>
+<?php
+    session_start();
+    if(empty($_SESSION['nombre'])){
+        $usuarioMostrar="invitado";
+    }else{
+        $usuarioMostrar=$_SESSION['nombre'];
+    }
+    
+        
+?>
     <header>
         <div class="navbar">
-        <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
+          <a href="principal.php"><img class="logo" src="img/logo.png" alt="No Image"></a>
             <div class="nav">
               
                 <a href="#inicio">INICIO</a>
@@ -37,8 +47,12 @@
                 <li><a class="dropdown-item" href="#contactanos">CONTACTÁNOS</a></li>
               </ul>
             </div>
-            <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button>
-        </div>
+            <!-- <button class="btn-head"><a href="index.php">INICIAR SESIÓN</a></button> -->
+            <?php  
+              echo "<h1> Bienvenido $usuarioMostrar</h1>"; 
+            ?>
+          </div>
+          
 
 
     </header>

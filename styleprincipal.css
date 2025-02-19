@@ -42,10 +42,15 @@ header{
     margin-bottom: 20px;
     
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
 
+}
+.navbar h1{
+    color: red;
+    font-size: 25px;
 }
 
 .nav{
