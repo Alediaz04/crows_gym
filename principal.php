@@ -92,6 +92,34 @@
             <h2 class="crowcolor"> ¡VENITE A CROWS•GYM!</h2>
 
         </section>
+        <!-- Presentacion: Quienes somos? que hacemos? +Foto -->
+         <section class="present">
+              <div class="text-present">
+                <h1 class="title-present">¿Quienes Somos?</h1>
+                <p class="texto-present">Somos mucho más que un gimnasio, somos una comunidad apasionada por el deporte y el bienestar. En nuestro espacio, encontrarás un ambiente motivador, entrenadores profesionales y un enfoque personalizado para que alcances tus objetivos. Nos dedicamos a transformar vidas a través del ejercicio, brindándote las mejores instalaciones y programas de entrenamiento diseñados para todos los niveles.
+                <br><br>
+                  
+                Te ayudamos a superar tus límites y lograr la mejor versión de ti mismo. Ofrecemos una variedad de disciplinas para que entrenes a tu manera:
+                <br>
+                🔥 Gimnasio – Equipado con máquinas de última generación y pesas para un entrenamiento completo.
+                <br>
+                💪 CrossFit – Entrenamientos de alta intensidad que combinan fuerza, cardio y resistencia.
+                <br>
+                🏋️ Funcional – Ejercicios diseñados para mejorar tu rendimiento en la vida diaria y el deporte.
+                <br>
+                🥊 Boxeo – Mejora tu fuerza, resistencia y agilidad con sesiones dinámicas y desafiantes.
+                
+                <br><br>  
+                Ya sea que busques ganar músculo, perder peso, mejorar tu resistencia o simplemente sentirte mejor, aquí encontrarás el programa ideal para ti. Únete a nuestra comunidad y empieza hoy tu transformación. ¡Te esperamos!</p>
+              </div>
+
+              <div class="center-img">
+                <img class="img-present" src="img/Principal/presentacion.jpg" alt="">
+              </div>
+        </section> 
+
+
+
         <!-- Imagenes introduccion -->
      <section class="carrusel-img">
         <div id="carouselExampleIndicators" class="carousel slide">
