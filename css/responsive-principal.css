@@ -1,3 +1,119 @@
+@media screen and (max-width: 720px) {
+    body{
+        max-width: 720px;
+        
+    }
+
+    header{
+        max-width: 720px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+
+    .dropdown{
+        display: flex;
+    }
+
+    .dropen{
+        border: none;
+        height: 40px;   
+        background: #c31432;  /* fallback for old browsers */         background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .vid{
+        height: 700px;
+    }
+    video{
+        height: 700px;
+    }
+    
+    .arrow{
+        position: absolute;
+        right: 50px;
+        top: -50px;
+    }
+    .wspa{
+        bottom: 5%;
+        right: 25px;
+    }
+
+    .present{
+        max-width: 720px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .no-text{
+        display: none;
+    }
+    .center-img{
+        display: none;
+    }
+
+
+    .shop{
+        max-width: 720px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-bottom: 100px;
+    }
+ 
+    .contacto{
+        flex-direction: column;
+        max-width: 720px;
+        height: 1000px;
+    }
+ 
+    .contac{
+        max-width: 600px;
+        width: 500px;
+        
+
+    }
+ 
+    .contac h1{
+        text-align: center;
+    }
+ 
+    .contac label{
+        
+        margin-left: 10px;
+    }
+ 
+    .contac input{
+        
+        width: 300px;
+        margin-left: 10px;
+    }
+ 
+    .btn1{
+        margin-left: 70px;
+    }
+ 
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+ 
+    .redes a{
+        margin-top: 0px;
+       
+    }
+    
+}
+
+
 @media screen and (max-width:600px) {
     body{
         max-width: 600px;
@@ -34,6 +150,24 @@
         bottom: 5%;
         right: 25px;
     }
+
+    .cambio h1{
+        color: #fff;
+    }
+    .present{
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .no-text{
+        display: none;
+    }
+    .center-img{
+        display: none;
+    }
+
 
     .shop{
         max-width: 600px;
@@ -87,5 +221,196 @@
     .redes a{
         margin-top: 0px;
        
+    }
+}
+
+@media screen and(max-width:480px){
+    * {
+        border: 1px solid red; /* Resalta todos los elementos para ver quién sobresale */
+    }
+    body{
+        max-width: 480px;
+        
+    }
+
+    header{
+        max-width: 480px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+
+
+    .dropdown{
+        display: flex;
+    }
+    
+
+    .dropen{
+        border: none;
+        height: 40px;   
+        background: #c31432;  /* fallback for old browsers */         background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .vid{
+        height: 480px;
+    }
+    video{
+        height: 480px;
+    }
+    .tittle{
+        width: 200px;
+        height: 100px;
+    }
+    div .arrow{
+        font-size: 20px;
+        position: absolute;
+        top: -450px;
+    }
+    .wspa{
+        bottom: 5%;
+        right: 25px;
+    }
+
+    .present{
+        max-width: 480px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .no-text{
+        display: none;
+    }
+    .center-img{
+        display: none;
+    }
+
+
+    .shop{
+        max-width: 720px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-bottom: 100px;
+    }
+ 
+    /* .contacto{
+        flex-direction: column;
+        max-width: 480px;
+        height: 1000px;
+        padding: 0px;
+        
+    }
+ 
+    .contac{
+        max-width: 300px;
+        width: 300px;
+        
+        position: absolute;
+        right: 20px;
+        
+
+    }
+ 
+    .contac h1{
+        text-align: center;
+    }
+ 
+    .contac label{
+        
+        margin-left: 10px;
+    }
+ 
+    .contac input{
+        
+        width: 200px;
+        margin-left: 10px;
+    }
+ 
+    .btn1{
+        margin-left: 70px;
+    }
+ 
+    .redes{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+ 
+    .redes a{
+        margin-top: 0px;
+       
+    } */
+    
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        align-items: center; /* Asegura que los elementos internos estén centrados */
+    }
+    
+    /* Formulario */
+    .contac {
+        width: 90%; /* Se ajusta al ancho del contenedor padre */
+        max-width: 300px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    /* Título del formulario */
+    .contac h1 {
+        text-align: center;
+    }
+    
+    /* Etiquetas */
+    .contac label {
+        display: block;
+        margin: 10px 0 5px 0;
+    }
+    
+    /* Campos de entrada */
+    .contac input {
+        width: 100%;
+        max-width: 280px;
+        padding: 8px;
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+    }
+    
+    /* Botón centrado */
+    .btn1 {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+    }
+    
+    /* Redes sociales */
+    .redes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    
+    .redes a {
+        margin-top: 0;
     }
 }
