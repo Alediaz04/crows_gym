@@ -1,3 +1,5 @@
+/* RESPONSIVE TERMINADO */
+
 @media screen and (max-width:1920px){
 /* Terminado */
     .formulario h1{
@@ -32,6 +34,9 @@
 
 @media screen and (max-width:1024px) {
     /* Terminado */
+    main{
+        height: 1000px;
+    }
     .formulario h1{
         left: 240px;
     }
@@ -52,7 +57,11 @@
     .formulario{
         width: 300px;
     }
-
+    .center label{
+        color: black;
+        font-weight: 600;
+        filter: drop-shadow(1px 1px 1px #fff);
+    }
     .center input{
         width: 450px;
         
@@ -67,19 +76,27 @@
 }
 
 @media screen and (max-width:480px) {
+
+    main{
+        height: 1000px;
+        width: 480px;
+    }
     .formulario h1{
         left: 120px; 
         top: 150px;
         font-weight: 800;
+       
     }
     .formulario p{
         left: 150px;
         top: 200px;
         font-weight: 600;
+        filter: drop-shadow(1px 2px 3px red);
     }
     .center label{
         color: black;
         font-weight: 600;
+        filter: drop-shadow(1px 1px 1px #fff);
     }
     .center input{
         width: 350px;

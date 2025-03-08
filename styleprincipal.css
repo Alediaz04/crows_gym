@@ -138,11 +138,13 @@ video{
     background: #1c1c1d;
     opacity: 0.5;} 
 .tittle{
+    width: 700px;
     display: flex;
     position: relative;
     z-index: 2;
-    top: 250px;
+    top: 200px;
     margin: auto;
+    filter: drop-shadow(1px 1px 25px rgb(212, 247, 11)) contrast(1.5);
 }
 div .arrow{
     display: flex;
@@ -150,6 +152,8 @@ div .arrow{
     z-index: 2;
     margin-left: 45%;
     color: #780206;  /* fallback for old browsers */
+
+    filter: drop-shadow(1px 1px 8px rgb(212, 247, 11));
 
     font-family: arrow;
     font-size: 150px;
@@ -159,10 +163,10 @@ div .arrow{
 }
 @keyframes arrow1{
     0% {
-        padding-top: 200px;
+        padding-top: 10px;
     }
     100% { 
-        padding-top: 230px;
+        padding-top: 30px;
     }
 }
 /* Terminado Intro */

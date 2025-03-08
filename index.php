@@ -20,9 +20,9 @@
             </div>
             <div>
                 <form action="login.php" method="post">
-                 <label class="lab1">Email:</label><br>
+                 <label class="lab lab1">Email:</label><br>
                  <input type="email" class="inp1" name="email" required ><br>
-                 <label class="lab2">Contraseña:</label><br>
+                 <label class="lab lab2">Contraseña:</label><br>
                  <input type="password" class="inp2" name="contraseña" required><br>
                  <a href="https://th.bing.com/th/id/OIP.E5HzHoT3xEko6US-5xyOJAAAAA?rs=1&pid=ImgDetMain" class="contra" target="_blank">¿Olvidaste tu contraseña?</a>
                  <button type="submit" class="btn">INICIAR SESIÓN</button>

@@ -4,3 +4,51 @@
   }
 
 }
+@media screen and (max-width: 480px){
+   body{
+    width: 480px;
+    height: auto;
+  }
+  header{
+    width: 480px;
+  }
+  .nav{
+    margin-left: 80px;
+  }
+  .logo{
+    width: 100px;
+    height: 70px;
+}
+  .trivia{
+    width: 100%;
+  }
+  
+  .trione h3{
+    font-size: 20px;
+  }
+  .trione button{
+    width: 300px;
+  } 
+  .trione{
+    width: 400px;
+    padding-right: 20px;
+  }
+  .botones{
+    width: 400px;
+  }
+  .btn-restart{
+    width: 120px;
+    font-size: 20px;
+  }
+  .btn-result{
+    width: 120px;
+    font-size: 20px;
+  }
+  .volver{
+    width: 100px;
+  }
+  .btn-volver{
+    width: 100px;
+    font-size: 18px;
+  }
+}

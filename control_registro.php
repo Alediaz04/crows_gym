@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "✅ Registro exitoso.";
             $_SESSION['nombre']=$nombre;
         } else {
-            echo "❌ Error en la consulta: " . mysqli_error($conexion);
+            echo "❌ Error: " . mysqli_error($conexion);
         }
     }
 }

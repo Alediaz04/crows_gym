@@ -56,7 +56,7 @@
           <style>
             .nombre{
               color: red;
-              font-size: 35px;
+              font-size: 25px;
               margin-right: 20px;
             }
           </style>
@@ -110,7 +110,7 @@
                 🥊 Boxeo – Mejora tu fuerza, resistencia y agilidad con sesiones dinámicas y desafiantes.
                 
                 <br><br>  
-                Ya sea que busques ganar músculo, perder peso, mejorar tu resistencia o simplemente sentirte mejor, aquí encontrarás el programa ideal para ti. Únete a nuestra comunidad y empieza hoy tu transformación. ¡Te esperamos!</p>
+                <span class="no-text">Ya sea que busques ganar músculo, perder peso, mejorar tu resistencia o simplemente sentirte mejor, aquí encontrarás el programa ideal para ti. Únete a nuestra comunidad y empieza hoy tu transformación. ¡Te esperamos!</span> </p>
               </div>
 
               <div class="center-img">
@@ -224,7 +224,7 @@
           <section id="contactanos" class="contacto">
             <div class="contac">
               <form action="principal.php" method="POST">
-                <h1>CONTACTÁNOS!!!</h1>
+                <h1>CONTÁCTANOS!!!</h1>
                 <label for="">Tu Nombre</label>
                 <br>
                 <input type="text" required name="nombreForm" >

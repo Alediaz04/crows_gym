@@ -24,9 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $sql = "INSERT INTO compra (nombre, dni, email, actividad, tarjeta, cvv, fechacard) VALUES ('$nombre', '$dni', '$email', '$actividad', '$tarjeta', '$cvv', '$fechacard')";
         
         if (mysqli_query($conexion, $sql)) {
-            echo "✅ Registro exitoso.";
+            echo "✅ COMPRA EXITOSA (Pronto nos comunicaremos con usted)";
         } else {
-            echo "❌ Error en la consulta: " . mysqli_error($conexion);
+            echo "❌ ERROR EN LA COMPRA " . mysqli_error($conexion);
         }
     }
 }

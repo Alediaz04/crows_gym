@@ -37,7 +37,7 @@
           <style>
             .nombre{
               color: red;
-              font-size: 35px;
+              font-size: 20px;
               margin-right: 20px;
             }
           </style>
