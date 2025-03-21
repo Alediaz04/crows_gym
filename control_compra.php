@@ -1,3 +1,6 @@
+<!-- No se usa pero guardado por si akso -->
+
+
 <?php
 include("conexion.php");
 
