@@ -244,6 +244,7 @@
                 <button class="btn1" type="submit">Enviar</button>
               </form>
             </div>
+            
             <div class="redes">
               <a href="https://www.instagram.com/workout.funcionalgym/?hl=es" target="_blank"><i class="bi bi-instagram ig"></i></a>
               <a href="https://www.tiktok.com/@fitness_university1?lang=es" target="_blank"><i class="bi bi-tiktok "></i></a>

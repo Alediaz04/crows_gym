@@ -61,7 +61,7 @@ header{
  
 }
 .nav a{
-    padding-right: 60px;
+    margin-right: 60px;
     font-size: 20px;
     color: #fff;
     text-decoration: none;
@@ -70,6 +70,7 @@ header{
 .nav a:hover{
     color: red;
     filter: drop-shadow(10px 10px 20px red);
+    border-bottom: 1px solid red;
 }
 
 .logo{
@@ -144,7 +145,7 @@ video{
     z-index: 2;
     top: 200px;
     margin: auto;
-    filter: drop-shadow(1px 1px 25px rgb(212, 247, 11)) contrast(1.5);
+    filter: drop-shadow(1px 1px 25px #ffffff) contrast(1.5);
 }
 div .arrow{
     display: flex;
@@ -153,7 +154,7 @@ div .arrow{
     margin-left: 45%;
     color: #780206;  /* fallback for old browsers */
 
-    filter: drop-shadow(1px 1px 8px rgb(212, 247, 11));
+    filter: drop-shadow(1px 1px 8px rgb(255, 255, 255));
 
     font-family: arrow;
     font-size: 150px;

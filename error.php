@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<H1>ENVIADO POR EL ERROR</H1>
+	<H1>ENVIADO POR ERROR, ingresa tu email y contraseña correctamente</H1>
 	<p><a href="index.php">Volver al Login</a></p>
 </body>
 </html>

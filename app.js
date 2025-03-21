@@ -1,5 +1,10 @@
 //hacer que con un click en la flecha se muestre todos los cuadros de la tienda
 
+
+
+
+
+
 let arrow= document.getElementById('arrowShop')
 let shop = document.getElementById('shop')
 

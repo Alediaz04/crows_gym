@@ -142,6 +142,7 @@ main{
     height: 860px;
     border-radius: 30px;
 
+
 }
 
 .title{
@@ -168,9 +169,9 @@ label{
     height: 30px;
     text-decoration: none;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-.card{
+.card-compra{
     /* filter: drop-shadow(1px 1px 5px #ffcc00); */
     filter: drop-shadow(1px 3px 8px #fdc830);
     background: #FDC830;  /* fallback for old browsers */
@@ -202,7 +203,7 @@ label{
     bottom: 35px;
     transform: rotate(90deg);
 }
-.numeroCard{
+.numero-card{
     width: 500px;
     height: 40px;
     background-color: transparent;
@@ -232,13 +233,13 @@ label{
 }
 
 
-.contenedor {
+.contenedor-compra {
     display: flex;
     justify-content: center; 
     height: 100%; 
 }
 
-.btn {
+.btn-compra {
     padding: 15px 20px;
 
     background-color: red;
